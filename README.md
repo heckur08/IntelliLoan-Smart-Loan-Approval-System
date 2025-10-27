@@ -80,5 +80,5 @@ E-commerce credit scoring
 Retail and inventory demand prediction  
 
 ## Author
-Anurag Singh
+Anurag Singh  
 Indian Institute of Technology, Patna

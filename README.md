@@ -64,9 +64,11 @@ It integrates **H2O AutoML** models within a **Spring Boot REST API**, enabling 
 }
 ```
 ## Interpretation:
-Label	Meaning
-0	Good loan — approved
-1	Atrocious loan — not approved
+| Label | Meaning |   
+|-------|-------|
+| 0 | Good loan - approved |  
+| 1 | Atrocious loan - not approved |
+
 ## Notes
 Download h2o-genmodel.jar:
 ```bash

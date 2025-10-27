@@ -36,11 +36,14 @@ It integrates **H2O AutoML** models within a **Spring Boot REST API**, enabling 
 ---
 
 ## How It Works
+![Loan Approver Application Flow](./LoanApproverApplicationFlow.png)  
 1. **Model Training:** Run the H2O script (`loan-approver-model.py` or `.R`) to generate Java POJOs.  
-2. **Build Application:**  
+2. **Build Application:**
    ```bash
    ./gradlew build -PpythonBasedMLModel=true
    ```
+![Model Generation using Gradle](./loanapprovermodelgeneration.png)  
+
 3. **Run the Spring Boot App:**
   ```bash
   java -jar intelliloan-0.0.1-SNAPSHOT.jar
@@ -50,10 +53,12 @@ It integrates **H2O AutoML** models within a **Spring Boot REST API**, enabling 
   docker build -t intelliloan .
   docker run intelliloan
   ```
+![Dockerized Loan Approver Setup](./LoanApproverDocker.png)  
 5. **Access API Docs:**
   ```bash
   http://localhost:8080/swagger-ui.html
   ```
+![Swagger Loan Approver APIs](./SwaggerLoanApproverAPIs.png)  
 ## Example Output
 ```json
 {
@@ -75,6 +80,8 @@ Download h2o-genmodel.jar:
 curl http://localhost:54321/3/h2o-genmodel.jar > h2o-genmodel.jar
 Models and predictions can be visualized in the H2O Flow UI.
 ```
+![H2O Model Visualization](./h2o.png)  
+
 ## Applications
 Credit risk prediction  
 Insurance claim fraud detection  

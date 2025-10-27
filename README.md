@@ -74,10 +74,10 @@ curl http://localhost:54321/3/h2o-genmodel.jar > h2o-genmodel.jar
 Models and predictions can be visualized in the H2O Flow UI.
 ```
 ## Applications
-Credit risk prediction
-Insurance claim fraud detection
-E-commerce credit scoring
-Retail and inventory demand prediction
+Credit risk prediction  
+Insurance claim fraud detection  
+E-commerce credit scoring  
+Retail and inventory demand prediction  
 
 ## Author
 Anurag Singh
